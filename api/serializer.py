@@ -1,5 +1,3 @@
-from curses import meta
-from dataclasses import field, fields
 from rest_framework import serializers
 from .models import meriDukan
 
