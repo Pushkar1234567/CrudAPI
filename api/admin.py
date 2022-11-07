@@ -5,4 +5,4 @@ from .models import meriDukan
 @admin.register(meriDukan)
 
 class dukanAdmin(admin.ModelAdmin):
-    list_display: ["__all__"]
+    list_display = ['name','varity','cost','city']
