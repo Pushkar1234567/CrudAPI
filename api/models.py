@@ -8,3 +8,4 @@ class meriDukan(models.Model):
     varity=models.CharField(max_length=100)
     cost=models.IntegerField()
     city=models.CharField(max_length=100)
+    # is_tombstoned=models.BooleanField(default=False)
